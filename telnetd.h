@@ -1,7 +1,7 @@
 #ifndef __telnetdh__
 #define __telnetdh__ 
 
-#include "serveur.h"
+#include "server.h"
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <sys/stat.h>
@@ -17,7 +17,7 @@
 
 using namespace std;
 
-class telnetd : public serveur
+class telnetd : public server
 {
 	private :
 		char passwd[256];

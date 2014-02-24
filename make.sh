@@ -1,3 +1,3 @@
 #!/bin/bash
-g++ serveur.cpp telnetd.cpp main.cpp -o telnetd -lpthread
+g++ server.cpp telnetd.cpp main.cpp -o telnetd -lpthread
 mkdir -p chroot
